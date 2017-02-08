@@ -13,3 +13,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # vimrc
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cp vimrc ~/.vimrc
+
+# powerline-fonts
+git clone https://github.com/powerline/fonts.git ~/.powerline-fonts
+bash ~/.powerline-fonts/install.sh
+rm -rf ~/.powerline-fonts/
