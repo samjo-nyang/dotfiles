@@ -3,3 +3,17 @@
     email = samjo.nyang@gmail.com
 [color]
     ui = auto
+[core]
+    editor = vim
+[alias]
+    st = status
+    cm = commit
+    ch = checkout
+    gh = log --graph --oneline --decorate=short --branches='*'
+    br = branch
+    pl = pull -p --recurse-submodule
+    pu = push
+    df = diff
+    dfs = diff --staged
+[push]
+    default = current
